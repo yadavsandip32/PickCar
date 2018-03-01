@@ -1,0 +1,326 @@
+@import url('https://googleapis.com/css?family=Raleway');
+@import url('https://googleapis.com/css?family=Oswald');
+@import "css/font-awesome.min.css";
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width:100%;
+}
+
+/* Top Bar
+--------------------------- */
+#top-bar { font-size: 1.257em; }
+#top-bar:after { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #252525; z-index: -1; }
+#top-bar span { color: #fff; }
+
+#top-bar,
+#top-bar-inner { padding-top: 13px; padding-bottom: 8px; }
+#top-bar .top-bar-inner-wrap { display: table; overflow: hidden; width: 100%; }
+#top-bar .top-bar-content { display: table-cell; margin: 0; text-align: left; vertical-align: middle; width: 75%;}
+
+
+/* Top Bar Content */
+#top-bar .top-bar-content i.fa { color: #ffc925; }
+#top-bar .top-bar-content i.fa-map-marker { margin-right: 12px; font-size: 14px }
+#top-bar .top-bar-content i.fa-phone { margin-right: 12px; margin-left: 24px; font-size: 20px }
+
+.intro
+{
+	height:100%;
+	width:100%;
+	margin:auto;
+	background: url("../images/bg1.jpg") no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+.intro .inner
+{
+	 display: table-cell;
+	 vertical-align: middle;
+	 width: 300;
+	 max-width: none;
+}
+
+.content {
+	max-width: 1500px;
+	margin:auto;
+	text-align:center;
+}
+.content1 {
+	max-width: 190px;
+	margin:0 auto;
+	text-align:right;	
+}
+.content h1 {
+	font-family: GeosansLight;
+	color: #F3F9F4;
+	text-shadow:0px 0px 20px #000;
+    font-size:600%;
+}
+.btn1 {
+	border-radius:9px;
+	font-family:'Raleway',sans-serif ;
+	color:#036A81;
+	Font-size:135%;
+	padding:10px 20px;
+	border: solid #036A81 3px;
+    text-decoration: none;
+	text-transform: uppercase;
+	}
+.btn1:hover {
+	 color: #fff;
+	 border: solid #fff 3px;
+	 
+ }
+ .btn2 {
+	border-radius:9px;
+	font-family:'Raleway',sans-serif ;
+	color:#036A81;
+	Font-size:135%;
+	padding:10px 20px;
+	border: solid #036A81 3px;
+    text-decoration: none;
+	text-transform: uppercase;
+	}
+.btn2:hover {
+	 color: #fff;
+	 border: solid #fff 3px;
+	 
+	 
+ }
+  .btn3 {
+	border-radius:0px;
+	font-family:'Raleway',sans-serif ;
+	vertical-align:right;
+	color:white;
+	Font-size:120%;
+	padding:0px 0px;
+	//border: solid #036A81 0px;
+    text-decoration: none;
+	text-transform: uppercase;
+	}
+.btn3:hover {
+	 color: #fff;
+	 //border: solid #fff 3px;
+	 
+	 
+ }
+ p {
+	 font-size:140%;
+	 
+	 text-align: justify;
+	 margin: 3%;
+	 font-family:sans-serif;
+ }
+ h4 {
+	 font-size:120%;
+	 color:grey;
+	 line-height: 21%
+	 text-align: justify;
+	 margin: 3%;
+	 font-family:sans-serif;
+ }
+table
+{
+	max-width: 590px;
+	font-size:140%;
+	 line-height: 21%
+	 text-align: middle;
+	 margin: 30%;
+	 color:white;
+	 font-family:sans-serif;
+	 display: table-cell;
+	 background-color :RED;
+}	
+
+.intro .inner1
+{
+	 display: table-cell;
+	 vertical-align: middle;
+	 width: 400;
+	 max-width: none;
+}
+.inner .logo{
+	position:middle;
+	height:30%;
+	width:90%;
+	margin:0 auto;
+
+
+}
+ .logo img
+ {
+	 -vebkit-border-radius:50px;
+	 height:100;
+	 width:10%;
+	 border-radius:50px;
+	 
+ }
+ /*====== About ========== */
+ 
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+ .choose-us-wraper {
+
+    padding-top: 50px;
+}
+
+.about-pick img {
+ margin-top: 8px;    
+}
+
+.choose-us-item {
+    position: relative;
+    padding-bottom: 4px;
+}
+.choose-us-item div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* ========= Testimonials ============= */
+.testimonial {
+    background-image: url("../images/testimonial_backgroung.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+.testimonial-overlay {
+    background-color: rgba(31, 31, 31, .75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+.testimonial-caption h4 {
+    color: #129CF3;
+}
+
+.testimonial-caption h4 {
+    
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.testimonial-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
+}
+
+
+/* ========= Contact Us ============= */
+.contact-us-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+}
+#message {
+    height: 117px;
+}
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    
+    background-color: blue;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    color: black;
+}
+.submit-btn:hover {
+    background-color: #129CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+/* ========= Footer ============= */
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #129CF3;
+}
+#copyright {
+    width: 50%;
+}
+#copyright p {
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+}
+#copyright p a {
+    text-decoration: none;
+    color: #129CF3;
+}
